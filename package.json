@@ -28,10 +28,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "link-staged"
+      "pre-commit": "lint-staged"
     }
   },
-  "link-staged": {
+  "lint-staged": {
     "*.js": [
       "eslint",
       "jest --findRelatedTests"
