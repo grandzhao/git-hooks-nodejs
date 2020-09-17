@@ -1,7 +1,7 @@
-const sum = require( '../src/sum' );
+const sum = require("../src/sum");
 
-it( 'check sum result', (){
-    const result = sum( 2, 5 );
+it("check sum result", () => {
+  const result = sum(2, 5);
 
-    expect(result).toBe( 7 );
-} );
+  expect(result).toBe(7);
+});
