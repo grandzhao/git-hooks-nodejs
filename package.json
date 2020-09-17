@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "test"
+      "pre-commit": "link-staged"
     }
   },
   "link-staged": {
