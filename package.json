@@ -6,7 +6,7 @@
     "test": "jest",
     "lint": "eslint src/**",
     "lint-init": "eslint --init",
-    "success-meeage": "Thanks $GIT_AUTHOR_NAME"
+    "success-meeage": "echo Thanks $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
