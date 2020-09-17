@@ -20,6 +20,7 @@
   "homepage": "https://github.com/grandzhao/git-hooks-nodejs#readme",
   "description": "",
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
     "eslint": "^7.9.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
@@ -29,7 +30,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "post-commit": "NPM run success-meeage"
     }
   },
   "lint-staged": {
